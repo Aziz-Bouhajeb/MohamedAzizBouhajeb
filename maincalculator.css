@@ -1,6 +1,14 @@
 #first{
+    background-color: #4e9ed4;
     text-align: center;
 }
+#img1{
+    height: 500px;
+    width:500px;
+}
+
+    
+
 .bloc {
 
     border: 1px solid #cccccc;
@@ -57,7 +65,7 @@
 
                 color: #fff;
                 
-                background-color: #eebb24;
+                background-color: aqua;
 
                 font-size: 2rem;
                 
@@ -65,9 +73,9 @@
                 
                 .del {
                 
-                background-color: #f0595f;
+                background-color: purple;
                 
-                border-color: #b0353a;
+                border-color: purple;
                 
                 color: #fff;
                 
@@ -85,9 +93,9 @@
                 
                 .equal-sign {
 
-                    background-color: green;
+                    background-color: yellow;
                     
-                    border-color: green;
+                    border-color: black;
                     
                     color: #fff;
                     
@@ -99,9 +107,10 @@
                     background-color: #4e9ed4;
                     
                     }
+                    
                     .area{
 
-                        background-color:blueviolet;
+                        background-color:gray;
                         
                         justify-content: left;
                         
@@ -127,16 +136,16 @@
 
                         
                         }
+                        
                         .keys{
 
-                            display: grid;
+                           display: grid;
                         
                             grid-template-columns: repeat(4, 1fr);
                         
-                            grid-gap: 10px;
+                           grid-gap: 10px;
                         
                             padding: 10px;
                         
-                            margin:auto;
-                        
+                            margin: auto;
                         }

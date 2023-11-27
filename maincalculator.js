@@ -1,10 +1,21 @@
-function display(){
-    document.getElementById("result").value+=value
-    return value
+function display(val){
+    document.getElementById("result").value+=val
+    return val
 }
 
 
 function deleteNumbers(){
+    document.getElementById("result").value=""
+}
+function solve(){
+
+    let x = document.getElementById('result').value
+
+    let y = eval(x);
+
+    document.getElementById('result').value = y
+
+    return y
 
 }
 
