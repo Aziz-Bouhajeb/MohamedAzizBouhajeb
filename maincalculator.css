@@ -1,10 +1,7 @@
 #first{
     text-align: center;
 }
-.area{
-    text-align: right;
-}
-.container {
+.bloc {
 
     border: 1px solid #cccccc;
     
@@ -61,8 +58,10 @@
                 color: #fff;
                 
                 background-color: #eebb24;
+
+                font-size: 2rem;
                 
-                }
+            }
                 
                 .del {
                 
@@ -86,12 +85,13 @@
                 
                 .equal-sign {
 
-                    background-color: #25a8e0;
+                    background-color: green;
                     
-                    border-color: #25a8e0;
+                    border-color: green;
                     
                     color: #fff;
                     
+                    font-size: 2rem;
                     }
                     
                     .equal-sign:hover {
@@ -101,7 +101,7 @@
                     }
                     .area{
 
-                        background-color:rgb(82, 167, 188);
+                        background-color:blueviolet;
                         
                         justify-content: left;
                         
@@ -122,5 +122,21 @@
                         margin: auto;
                         
                         margin-bottom: 10px;
+                        
+                        text-align: right;
+
+                        
+                        }
+                        .keys{
+
+                            display: grid;
+                        
+                            grid-template-columns: repeat(4, 1fr);
+                        
+                            grid-gap: 10px;
+                        
+                            padding: 10px;
+                        
+                            margin:auto;
                         
                         }
